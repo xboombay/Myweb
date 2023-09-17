@@ -1,0 +1,42 @@
+body {
+    font-family: Ubuntu, sans-serif;
+    font-size: 16px;
+  }
+
+h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 40px;
+  }
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+th {
+    background-color: #016A70;
+    color: white;
+  }
+.tb1 {
+      width: 70%;
+      border-collapse: collapse;
+  }
+
+th,td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 2px solid #ddd;
+  }
+
+.tb2 {
+      border-style: dotted;
+      border-collapse: collapse;
+  }
+
+hr {
+    /*background-color: white;*/
+    border-style: dotted none none;
+    /*height: 0;*/
+    width: 30%;
+    border-color: grey;
+    border-width:5px;
+  
+}
